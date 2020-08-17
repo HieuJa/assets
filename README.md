@@ -1,1 +1,0 @@
-# woovina-assets
