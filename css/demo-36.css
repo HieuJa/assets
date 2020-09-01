@@ -5261,6 +5261,7 @@ table.compare-list .price td del .amount {
   -ms-animation: fadeInRight 0.5s 0.3s both;
   -o-animation: fadeInRight 0.5s 0.3s both;
   animation: fadeInRight 0.5s 0.3s both;
+  right: 15px !important;
 }
 .basic-gallery .gallery-item .gallery-icon a::before,
 .basic-gallery .gallery-item .gallery-icon a::after {
