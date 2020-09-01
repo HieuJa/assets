@@ -4941,6 +4941,7 @@ div#blog-entries {
   -ms-animation: fadeInRight 0.5s 0.3s both;
   -o-animation: fadeInRight 0.5s 0.3s both;
   animation: fadeInRight 0.5s 0.3s both;
+  right: 15px !important;
 }
 #scroll-top:hover {
   border-color: #ebebeb;
