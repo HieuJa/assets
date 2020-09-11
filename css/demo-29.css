@@ -5346,6 +5346,9 @@ table.compare-list .price td del .amount {
   font-family: Work Sans, sans-serif;
   margin-bottom: 15px;
 }
+#body-compare-popup table tr td:first-child, #body-compare-popup table tr th:first-child {
+    padding: 10px;
+}
 #body-compare-popup .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead {
   display: none;
 }

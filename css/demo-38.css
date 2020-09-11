@@ -1,4 +1,5 @@
 @import "../fonts/stroke-gap-icons/stroke-gap-icon.css";
+
 /* CSS3 PROPERTIES */
 /* Border Radius */
 body {
@@ -2243,7 +2244,7 @@ li.product:hover .is-countdown {
   position: absolute;
   bottom: 0px;
   left: 50%;
-  z-index: 2;
+  z-index: 0;
   visibility: visible;
   transform-origin: 0 100%;
   -webkit-transform: scaleY(1) translateX(-50%);
@@ -7032,6 +7033,12 @@ button#cboxClose {
   left: 35px;
   right: auto;
 }
+body div#yith-woocompare {
+  padding: 0px;
+}
+#yith-woocompare tfoot {
+  display: none;
+}
 button#cboxClose::before {
   content: "\f2d7";
   display: inline-block;
@@ -7049,6 +7056,9 @@ button#cboxClose::before {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+}
+#body-compare-popup table tr td:first-child, #body-compare-popup table tr th:first-child {
+    padding: 10px;
 }
 .rtl button#cboxClose::before {
   left: 0px;
@@ -7097,6 +7107,8 @@ table.compare-list .price td del .amount {
   font-family: Work Sans, sans-serif;
   margin-bottom: 15px;
   background-color: #78a206;
+  margin-bottom: 0px;
+  border: 0px;
 }
 #body-compare-popup .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead {
   display: none;

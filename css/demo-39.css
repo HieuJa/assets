@@ -550,7 +550,6 @@ div#top-bar-wrap {
 }
 .desktop-header .menu-cart {
   display: flex;
-  width: auto;
 }
 .desktop-header .menu-cart .icon-cart {
   float: left;
@@ -2110,6 +2109,7 @@ table.compare-list .price td ins {
   font-weight: 400;
   text-transform: unset;
   font-family: Rubik;
+  z-index: 0;
 }
 /* Countdown*/
 li.product:hover .is-countdown {
@@ -2131,7 +2131,7 @@ li.product:hover .is-countdown {
   position: absolute;
   top: 20px;
   right: -1px;
-  z-index: 2;
+  z-index: 0;
   visibility: visible;
   transform-origin: 100% 0;
   -webkit-transform: scaleX(1);
@@ -6950,4 +6950,13 @@ form select:focus:invalid {
 }
 .rtl .dokan-orders-content .dokan-orders-area ul.order-statuses-filter li:last-child {
   border: 0;
+}
+body div#yith-woocompare {
+  padding: 0px;
+}
+#yith-woocompare tfoot {
+  display: none;
+}
+#body-compare-popup table tr td:first-child, #body-compare-popup table tr th:first-child {
+    padding: 10px;
 }
