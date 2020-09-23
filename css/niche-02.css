@@ -1708,6 +1708,20 @@ ul.products.list li.product li.btn-wrap .btn-addtocart {
 	-o-transform: scale(1);
 	transform: scale(1);
 }
+.space {
+	padding-left: 35px;
+	color: #919191;
+}
+.from-blog.heading-tes h3 {
+	background: #fff;
+}
+.ss-testimonials .swiper-wrapper .swiper-slide {
+	border: 1px solid #ebebeb;
+	padding: 15px;
+}
+.ss-testimonials .swiper-container-horizontal > .swiper-pagination-bullets {
+	bottom: -25px;
+}
 #footer-bottom {
 	font-size: 14px;
 	background-color: #000000 !important;
