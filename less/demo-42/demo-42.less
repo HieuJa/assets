@@ -216,9 +216,9 @@ body.logged-in #top-bar-content #top-bar-nav > ul {
 		>.sub-menu{
 			display: block!important;
 			.opacity(0);
-			.transform(perspective(600px) rotateX(-90deg));
+			.transform(scaleY(0));
+			.transition(all 0.3s);
 			transform-origin: 0 0;
-			transition: transform 0.5s ease,opacity 0.6s ease,max-height 0.6s step-end,max-width 0.6s step-end,padding 0.6s step-end;
 			margin: 0!important;
 			padding: 20px 0;
 			max-height: 0;
@@ -268,11 +268,11 @@ body.logged-in #top-bar-content #top-bar-nav > ul {
 		}
 		&:hover{
 			>.sub-menu{
-				.opacity(1);
-				.transform(perspective(600px) rotateX(0deg));
 				max-height: 3000px;
 				max-width: 3000px;
-				transition: transform 0.5s ease,opacity 0.2s ease,max-height 0s step-end,max-width 0s step-end,padding 0s step-end;
+				.opacity(1);
+				visibility: visible;
+				transform: scaleY(1);
 			}
 		}
 	}
@@ -528,6 +528,7 @@ ul.sub-menu li.badge-new .elementor-sub-item::after, #site-navigation-wrap .drop
 .dropdown-menu ul li.menu-item.badge-new > a::after {
   content: "new";
   background-color: #3ad154;
+  text-transform: capitalize;
 }
 
 ul.sub-menu li.badge-new .elementor-sub-item::before, #site-navigation-wrap .dropdown-menu > li.badge-new > a::before,
@@ -4879,7 +4880,6 @@ body .sidr-class-dropdown-menu li a:hover {
 					.berocket_aapf_widget_selected_filter {
 						border-radius: 5px;
 						.bapf_sfa_taxonomy {
-							margin-bottom: 10px;
 							display: inline-block;
 							&:not(:last-child) {
 								margin-right: 10px;
@@ -4889,7 +4889,7 @@ body .sidr-class-dropdown-menu li a:hover {
 							}
 							ul {
 								li {
-									margin: 0 !important;
+									margin:0 0 10px 0 !important;
 									padding: 5px !important;
 									border-radius: 5px;
 									background: @primarycolor;
@@ -5107,29 +5107,19 @@ body .sidr-class-dropdown-menu li a:hover {
 						label {
 							color: #323232 !important;
 							font-size: 14px;
+							padding: 5px 0;
 						}
 						i {
 							position: absolute;
 							top: 0;
 							right: 0;
-							.transform(translateY(50%));
+							.transform(translateY(100%));
 						}
 					}
 				}
 			}
 		}
 		margin: 0;
-		.bapf_head {
-			h3 {
-				border-bottom: 2px solid #ececec;
-				padding-bottom: 12px;
-				border-left: none;
-				padding-left: 0;
-				text-transform: capitalize;
-				font-size: 23px;
-				font-family: 'Sofia Pro' !important;
-			}
-		}	
 	}	
 }
 /*End Filters*/
@@ -5510,7 +5500,6 @@ body .sidr-class-dropdown-menu li a:hover {
 								top: 0;
 								left: 0;
 								right: unset;
-								.transform(translateY(50%));
 							}
 							ul {
 								margin-left: 0;
