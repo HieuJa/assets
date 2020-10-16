@@ -4328,7 +4328,6 @@ div.sidebar-box {
 }
 .sidebar-container .sidebar-box {
   position: relative;
-  z-index: 0;
   background-color: #fff;
   margin-bottom: 30px;
   padding-top: 0px !important;
@@ -6873,6 +6872,9 @@ body.rtl.single-product div.product .product-share .woovina-social-share li {
 .rtl div.product div.woocommerce-product-details__short-description .textwidget li i {
   margin-right: 0px;
   margin-left: 10px;
+}
+.colum-left-content {
+  z-index: 2;
 }
 /*Responsive*/
 @media screen and (max-width: 1783px) {
