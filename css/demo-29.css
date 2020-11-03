@@ -557,6 +557,12 @@ body.home.admin-bar .elementor-element.img-bottom-account > .elementor-widget-co
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  header#site-header.custom-header div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item.banner-categories a.elementor-sub-item {
+  	max-width: 100% !important;
+  }
+  header#site-header.custom-header div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item {
+    min-width: 220px;
+	}
   header#site-header.custom-header div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item a.elementor-sub-item.has-submenu {
     font-weight: 700;
     height: 35px;
@@ -5396,7 +5402,10 @@ header#site-header.custom-header .elementor-widget-wew-search button {
   background-color: #ff4747 !important;
   color: #fff;
   border-radius: 0px 4px 4px 0px;
-  height: 40px;
+  height: 38px;
+}
+body .elementor-152 .elementor-element.elementor-element-ed8c693 .woovina-nav-menu--main > .woovina-nav-menu > li > .woovina-nav-menu--dropdown, body .elementor-152 .elementor-element.elementor-element-ed8c693 .woovina-nav-menu__container.woovina-nav-menu--dropdown {
+    margin-top: 19px !important;
 }
 header#site-header.custom-header .elementor-widget-wew-search button i {
   font-size: 16px;
