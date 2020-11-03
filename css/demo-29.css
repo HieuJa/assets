@@ -541,6 +541,10 @@ body.home.admin-bar .elementor-element.img-bottom-account > .elementor-widget-co
   header#site-header.custom-header div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item {
     min-width: 234px;
   }
+  header#site-header.custom-header div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item.banner-categories {
+  	grid-column-start: 1;
+	grid-column-end: 4;
+  }
   header#site-header.custom-header div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item a.elementor-sub-item {
     font-size: inherit;
     padding: 0;
@@ -4794,6 +4798,18 @@ body .woovina-row.grid .product.span_1_of12 {
   }
   div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item {
     min-width: 234px;
+  }
+  div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item.banner-categories {
+  	grid-column-start: 1;
+	grid-column-end: 4;
+  }
+  div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item.banner-categories a {
+  	max-width: 100%;
+  }
+  div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item.banner-categories img {
+  	width: 100%;
+	object-fit: cover;
+	max-height: 350px;
   }
   div.elementor-widget-wew-nav-menu.categories-has-title nav.woovina-nav-menu--dropdown > ul.woovina-nav-menu > li.menu-item.has-megamenu > ul.sub-menu.woovina-nav-menu--dropdown li.menu-item a.elementor-sub-item {
     padding: 0;
