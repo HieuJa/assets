@@ -1,8 +1,21 @@
-@bodyfont: 'Rubik', sans-serif;
+@font-face {
+  font-family: "Ionicons";
+  src:url(../fonts/ionicons/ionicons.ttf) format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@bodyfont: "Ionicons";
+@font-face {
+  font-family: 'Pe-icon-7-stroke';
+  src:url('../fonts/Icon-font-7-stroke/fonts/Pe-icon-7-stroke.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@fontnb: 'Pe-icon-7-stroke';
 
-@textcolor: #222222;
+@textcolor: #333333;
 @textcolor2: #666666;
-@primarycolor:  #df2121 ;
+@primarycolor:  #f56036 ;
 @primarycolor2: #fdfafa;
 @primarycolor3: #f9eaea;
 @primarycolor4: #26c4b7;
@@ -58,11 +71,11 @@
 }
 
 .transform(@transform) {
-	-webkit-transform: @transform;
-		 -moz-transform: @transform;
-		  -ms-transform: @transform;
-			 -o-transform: @transform;
-			  	transform: @transform;
+  -webkit-transform: @transform;
+     -moz-transform: @transform;
+      -ms-transform: @transform;
+       -o-transform: @transform;
+          transform: @transform;
 }
 .transition(@transition) {
   -webkit-transition: @transition;
@@ -98,17 +111,17 @@
           transform: translate3d(@x, @y, @z);
 }
 .padding(@top, @right, @bottom, @left) {
-	padding: @top @right @bottom @left;
-	.rtl & {
-		padding: @top @left @bottom @right;
-	}
+  padding: @top @right @bottom @left;
+  .rtl & {
+    padding: @top @left @bottom @right;
+  }
 }
 .padding-left(@value: 10px){
-	padding-left: @value;
-	.rtl &{
-		padding-right: @value;
-		padding-left: 0;
-	}
+  padding-left: @value;
+  .rtl &{
+    padding-right: @value;
+    padding-left: 0;
+  }
 }
 .padding-right(@value: 10px){
   padding-right: @value;
@@ -138,10 +151,10 @@
   }
 }
 .text-center() {
-	text-align: center;
-	.rtl &{
-		text-align: center; 
-	}
+  text-align: center;
+  .rtl &{
+    text-align: center; 
+  }
 }
 
 .right(@value: 10px){
