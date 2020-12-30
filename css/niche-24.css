@@ -284,7 +284,7 @@
 }
 .sf-menu > li.menu-item > .sub-menu,
 .wcmenucart-toggle-drop_down .current-shop-items-dropdown {
-    opacity: 0;
+    opacity: 0!important;
     visibility: hidden; 
    transition: transform 0.3s,opacity 0.3s, visibility 0.3s;
     transition: transform 0.3s,opacity 0.3s, visibility 0.3s;
@@ -305,7 +305,7 @@
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
-    opacity: 1;
+    opacity: 1!important;
     visibility: visible;
     display: block !important;
     transition: transform 0.3s,opacity 0.3s, visibility 0.3s;
@@ -2469,8 +2469,7 @@ body .woovina-row.grid .span_1_of_12 {
         border-bottom: none;
         font-size: 14px;
         font-weight: 400;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding: 5px 15px;
     }
     .woo-dropdown-cat .sidebar-box.widget_product_categories li.cat-item ul.children {
         display: block;
@@ -4273,10 +4272,9 @@ right: auto;
 /*swatch*/
 .woocommerce ul.products li.product .shopswatchinput {
   position: absolute;
-  top: 60px;
-  left: 20px;
+  top: 10px;
+  right: 10px;
   z-index: 5;
-  width: 32px;
   -webkit-transition: 0.4s all;
   -moz-transition: 0.4s all;
   -o-transition: 0.4s all;
@@ -4289,12 +4287,12 @@ right: auto;
     margin-bottom: 0px;
 }
 .rtl .woocommerce ul.products li.product .shopswatchinput {
-  left: auto;
-  right: 20px;
+  right: auto;
+  left: 10px;
 }
 .rtl.woocommerce ul.products li.product .shopswatchinput {
-  left: auto;
-  right: 20px;
+  right: auto;
+  left: 10px;
 }
 .woocommerce ul.products li.product .shopswatchinput a div.wvsround {
   border: 1px solid #222222;
@@ -4303,14 +4301,6 @@ right: auto;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
-}
-.woocommerce ul.products.grid li.product:hover .shopswatchinput,
-.woocommerce ul.products.slick-slider li.product:hover .shopswatchinput {
-  top: 60px;
-  -webkit-transition: 0.4s all;
-  -moz-transition: 0.4s all;
-  -o-transition: 0.4s all;
-  transition: 0.4s all;
 }
 /*table-attribute*/
 body.single-product.woocommerce form.variations_form {

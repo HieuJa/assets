@@ -32,9 +32,9 @@ jQuery(function ($) {
 		$(wishlist).find('div.tinvwl-tooltip').attr('class', 'tooltip for-wishlist');
 		
 		$(addtocart).appendTo($(btngroup));
+		$(quickview).appendTo($(btngroup));
 		$(wishlist).appendTo($(btngroup));
 		$(compare).appendTo($(btngroup));
-		$(quickview).appendTo($(btngroup));
 
 		$(btngroup).clone().appendTo($(imgwrap));
 		$(btngroup).appendTo($(btnwrap));

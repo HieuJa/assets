@@ -72,7 +72,7 @@
 }
 .sf-menu > li.menu-item > .sub-menu,
 .wcmenucart-toggle-drop_down .current-shop-items-dropdown {
-    opacity: 0;
+    opacity: 0!important;
     filter: alpha(opacity=0);
     visibility: hidden;
     -webkit-transition: all 0.3s;
@@ -91,7 +91,7 @@
     -moz-transform: translateY(0px);
     -o-transform: translateY(0px);
     transform: translateY(0px);
-    opacity: 1;
+    opacity: 1!important;
     visibility: visible;
     display: block !important;
 }

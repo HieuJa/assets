@@ -112,7 +112,7 @@
 }
 .sf-menu > li.menu-item > .sub-menu,
 .wcmenucart-toggle-drop_down .current-shop-items-dropdown {
-  opacity: 0;
+  opacity: 0!important;
   filter: alpha(opacity=0);
   visibility: hidden;
   transition: transform 0.3s,opacity 0.3s, visibility 0.3s;
@@ -129,7 +129,7 @@
   -o-transform: scale(1) translateX(1px);
   -moz-transform: scale(1) translateX(1px);
   -webkit-transform: scale(1) translateX(1px);
-  opacity: 1;
+  opacity: 1!important;
   visibility: visible;
   display: block !important;
   transition: transform 0.3s,opacity 0.3s, visibility 0.3s;
@@ -1719,7 +1719,7 @@ div.wew-woo-slider ul.products li.product li.btn-wrap {
   width: 100%;
   padding: 5px 0;
   bottom: 0;
-  z-index: 99;
+  z-index: 5;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -2275,7 +2275,7 @@ body .woovina-row {
     padding: 0 10px;
   }
   .is-sticky #site-header-inner {
-    padding: 0 15px !important;
+    padding: 0 10px !important;
   }
   #site-logo #site-logo-inner a img {
     width: 147px;
@@ -2431,7 +2431,7 @@ body .woovina-row {
     z-index: 99;
   }
   div#mobile-navbar.active {
-    z-index: 99;
+    z-index: 98;
   }
   .woovina-mobile-menu-icon .wcmenucart-count .wcmenucart-details {
     background-color: #0ccfa8;

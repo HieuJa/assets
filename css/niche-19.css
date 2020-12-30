@@ -262,8 +262,8 @@ a.wcmenucart-shortcode .wcmenucart-cart-icon .wcmenucart-count::after {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 170px;
-    height: 70px;
+    width: 190px;
+    height: 20px;
     display: none;
 }
 .rtl .cart-total .icon-cart .woo-menu-icon:before {
@@ -1213,11 +1213,11 @@ body.rtl.woocommerce .products .product.onbackorder .outofstock-badge::before {
     left: auto !important;
 }
 .rtl .woocommerce .products .product .btn-wrap .btn-group {
-    -webkit-transform: translateX(-70px);
-    -moz-transform: translateX(-70px);
-    -ms-transform: translateX(-70px);
-    -o-transform: translateX(-70px);
-    transform: translateX(-70px);
+    -webkit-transform: translateX(-40px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+    transform: translateX(-40px);
 }
 .rtl .woocommerce .products .product .btn-wrap .btn-group .btn-inner:last-child {
     margin-right: 5px;
@@ -1229,11 +1229,11 @@ body.rtl.woocommerce .products .product.onbackorder .outofstock-badge::before {
     left: auto !important;
 }
 .rtl.woocommerce .products .product .btn-wrap .btn-group {
-    -webkit-transform: translateX(-70px);
-    -moz-transform: translateX(-70px);
-    -ms-transform: translateX(-70px);
-    -o-transform: translateX(-70px);
-    transform: translateX(-70px);
+    -webkit-transform: translateX(-40px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+    transform: translateX(-40px);
 }
 .rtl.woocommerce .products .product .btn-wrap .btn-group .btn-inner:last-child {
     margin-right: 5px;
@@ -1257,11 +1257,11 @@ body.rtl.woocommerce .products .product.onbackorder .outofstock-badge::before {
     position: relative;
     float: left;
     opacity: 0;
-    -webkit-transform: translateX(70px);
-    -moz-transform: translateX(70px);
-    -ms-transform: translateX(70px);
-    -o-transform: translateX(70px);
-    transform: translateX(70px);
+    -webkit-transform: translateX(40px);
+    -moz-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    -o-transform: translateX(40px);
+    transform: translateX(40px);
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;

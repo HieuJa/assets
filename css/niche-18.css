@@ -2547,6 +2547,9 @@ body .woovina-row {
   font-weight: normal;
   font-size: 14px;
   line-height: 31px;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  display: block;
 }
 .woo-dropdown-cat .sidebar-box.widget_product_categories li:hover {
   color: #fe9700;
@@ -2753,7 +2756,6 @@ body .woovina-row {
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
-    height: 53px;
   }
   .rtl .product-categories li.cat-item {
     padding-right: 30px;

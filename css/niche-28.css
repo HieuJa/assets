@@ -1064,7 +1064,7 @@ div.product form.cart .tinvwl_add_to_wishlist_button:before {
   font-weight: 500;
   font-size: 18px;
   font-family: 'simple-line-icons' !important;
-  margin-top: -10px;
+  margin-top: -13px;
   margin-left: -12px;
 }
 .woocommerce .products .product .tinvwl_add_to_wishlist_button:hover::before {
@@ -4363,4 +4363,11 @@ body.single-product.woocommerce form.variations_form table.variations.wvs-variat
     width: 20px !important;
     height: 20px !important;
   }
+}
+.fab{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }

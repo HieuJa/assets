@@ -1635,10 +1635,6 @@ div.wew-woo-slider ul.products li.product li.btn-wrap {
 .woocommerce .products .product .tinv-wraper.tinv-wishlist {
   top: 0;
   right: auto;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
 }
 .woocommerce .products .product .tinv-wraper.tinv-wishlist .tinvwl_add_to_wishlist_button {
   padding: 0;
@@ -1664,19 +1660,27 @@ div.wew-woo-slider ul.products li.product li.btn-wrap {
   transform: skew(10deg);
   line-height: 30px;
 }
-.woocommerce .products .product .btn-quickview {
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  width: 40px;
-  height: 30px;
+.woocommerce .products .product .btn-positions .btn-inner:nth-child(1){
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
-.woocommerce .products .product .btn-compare {
+.woocommerce .products .product .btn-positions .btn-inner:nth-child(2){
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.woocommerce .products .product .btn-positions .btn-inner:nth-child(3){
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.woocommerce .products .product .btn-quickview {
+  width: 40px;
+  height: 30px;
 }
 .woocommerce .products .product .btn-compare a {
   width: 40px;
@@ -6486,4 +6490,11 @@ body.single-product.woocommerce form.variations_form table.variations.wvs-variat
     width: 20px !important;
     height: 20px !important;
   }
+}
+.fab {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
 }

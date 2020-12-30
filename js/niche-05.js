@@ -29,10 +29,10 @@ jQuery(function ($) {
 		$(wishlist).addClass('btn-inner btn-wishlist');
 		$(wishlist).find('div.tinvwl-tooltip').attr('class', 'tooltip for-wishlist');
 		
-		$(wishlist).appendTo($(pach));
-		$(pach).appendTo($(wrapper));
-		$(compare).appendTo($(pach));
 		$(quickview).appendTo($(pach));
+		$(wishlist).appendTo($(pach));
+		$(compare).appendTo($(pach));
+		$(pach).appendTo($(wrapper));
 		// Move Countdown 
 		var countdown  = $(item).find('div.jquery-countdown');
 		var imgwrapper = $(item).find('div.woo-entry-image');

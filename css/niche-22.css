@@ -595,13 +595,13 @@ div.product form.cart .tinvwl_add_to_wishlist_button:before {
 }
 .sf-menu > li.menu-item > .sub-menu,
 .wcmenucart-toggle-drop_down .current-shop-items-dropdown {
-    opacity: 0;
+    opacity: 0!important;
     filter: alpha(opacity=0);
     visibility: hidden;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+    -moz-transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+    transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
     display: block !important;
     -webkit-transform: translateY(40px);
     -moz-transform: translateY(40px);
@@ -616,7 +616,7 @@ div.product form.cart .tinvwl_add_to_wishlist_button:before {
     -ms-transform: translateY(0px);
     -o-transform: translateY(0px);
     transform: translateY(0px);
-    opacity: 1;
+    opacity: 1!important;
     visibility: visible;
     display: block !important;
 }
@@ -2530,8 +2530,7 @@ body .woovina-row.grid .span_1_of_12 {
         border-bottom: none;
         font-size: 14px;
         font-weight: 400;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding: 15px 20px;
     }
     .woo-dropdown-cat .sidebar-box.widget_product_categories li.cat-item ul.children {
         display: block;

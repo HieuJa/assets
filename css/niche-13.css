@@ -208,10 +208,10 @@ header#site-header {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	visibility: hidden;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
+	-webkit-transition: transform 0.4s, opacity 0.4s, visibility 0.4s;
+	-moz-transition: transform 0.4s, opacity 0.4s, visibility 0.4s;
+	-o-transition: transform 0.4s, opacity 0.4s, visibility 0.4s;
+	transition: transform 0.4s, opacity 0.4s, visibility 0.4s;
 	display: block !important;
 	transform-origin: top;
 	-webkit-transform: translateX(1px) scaleY(0);
@@ -4722,8 +4722,8 @@ right: auto;
 /*swatch*/
 .woocommerce ul.products li.product .shopswatchinput {
   position: absolute;
-  top: 60px;
-  left: 20px;
+  top: 75px;
+  left: 10px;
   z-index: 5;
   width: 32px;
   -webkit-transition: 0.4s all;
@@ -4739,11 +4739,11 @@ right: auto;
 }
 .rtl .woocommerce ul.products li.product .shopswatchinput {
   left: auto;
-  right: 20px;
+  right: 10px;
 }
 .rtl.woocommerce ul.products li.product .shopswatchinput {
   left: auto;
-  right: 20px;
+  right: 10px;
 }
 .woocommerce ul.products li.product .shopswatchinput a div.wvsround {
   border: 1px solid #222222;
@@ -4752,14 +4752,6 @@ right: auto;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
-}
-.woocommerce ul.products.grid li.product:hover .shopswatchinput,
-.woocommerce ul.products.slick-slider li.product:hover .shopswatchinput {
-  top: 60px;
-  -webkit-transition: 0.4s all;
-  -moz-transition: 0.4s all;
-  -o-transition: 0.4s all;
-  transition: 0.4s all;
 }
 /*table-attribute*/
 body.single-product.woocommerce form.variations_form {

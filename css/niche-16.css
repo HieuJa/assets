@@ -3509,11 +3509,15 @@ body.rtl.content-right-sidebar .content-area {
 		line-height: 16px;
 		position: absolute;
 		top: 8px;
-		right: -5px;
+		right: 3px;
 		background-color: #d9534f;
 		font-size: 10px;
 		color: #fff;
 		border-radius: 50%;
+	}
+	.wish a.wishlist_products_counter.top_wishlist-custom:before,
+	.mobile-wishlist a.wishlist_products_counter.top_wishlist-custom:before {
+		margin-right: 10px;
 	}
 	.archive #woovina-off-canvas-sidebar-wrap .woovina-off-canvas-sidebar {
 		width: 280px;
